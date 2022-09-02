@@ -61,7 +61,7 @@ class SceneAlert(metaclass=SingletonType):
 			if S.obs_source_active(self.alert):
 				self.startTimer()
 			else:
-				self.stopTImer()
+				self.stopTimer()
 
 	def startTimer(self):
 		self.stopTimer()
